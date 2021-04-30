@@ -42,9 +42,10 @@
       align-items: center;
     }
   
-  .botonReset {
+  .iconify {
       width: 20px;
-      margin-left:700px;
+      margin-left:800px;
+      font-size: 100px;
     }
   
   #listaNombres {

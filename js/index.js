@@ -17,6 +17,7 @@ let main3 = document.getElementById("mainPlay")
 let beer1 = document.getElementById("cervezaLlena")
 let beer2 = document.getElementById("cervezaVacia")
 
+
 // Eventlistener
 
 randomButton.addEventListener('click', () => {
@@ -46,6 +47,9 @@ play.addEventListener('click', ()=>{
 homePage.addEventListener('click', ()=>{
     paginaHome()
 })
+
+
+
 // Función: desplegar nombres
 
 function desplegarNombres() {

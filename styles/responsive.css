@@ -68,9 +68,10 @@
   }
 
   #mainAboutUs h2 {
-    margin-top: 130px;
-    font-size: 35px;  
-  }
+    margin-top: 50px;
+    font-size: 35px; 
+    text-shadow: 2px 5px 10px  black;
+      }
   
   .p-sobrenosotros {
     width: 457.42px;
@@ -85,7 +86,8 @@
   }
   
   .how-to-play h2 {
-    margin-top: 150px;
+    margin-top: 50px;
+    text-shadow: 2px 5px 5px black;
   }
   
   .how-to-play-description {

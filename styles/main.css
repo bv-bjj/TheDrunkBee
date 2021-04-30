@@ -110,7 +110,7 @@ main {
   font-weight: bold;
   font-size: 18px;
   border-radius: 20px;
-  margin: 2px 2px 2px 2x;
+  margin: 5px 5px 5px 5x;
 }
 
 #listaNombres li {
@@ -146,4 +146,11 @@ main {
   margin-top: 20px;
   margin-left: 10px;
   margin-bottom: 12px;
+}
+
+.listagrande {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 20px;
 }

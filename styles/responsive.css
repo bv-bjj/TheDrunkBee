@@ -49,12 +49,7 @@
       font-size: 100px;
     }
   
-  .listagrande {
-      display: flex;
-      align-items: center;
-      justify-content: space-around;
-      margin-bottom: 20px;
-  }
+  
   
     #listaNombres {
     display: grid;

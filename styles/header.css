@@ -50,7 +50,7 @@
 
 #mainAboutUs h2 {
   font-size: 30px;
-  margin-top: 50px;
+  margin-top: 70px;
   font-weight: bold;
   color: #ffb037;
   text-align: center;
@@ -59,6 +59,7 @@
 .p-sobrenosotros {
   margin-top: 20px;
   font-size: 20px;
+  font-weight: bold;
   background-color: #ffaf3763;
   padding: 10px 10px 10px 10px;
   display: flex;

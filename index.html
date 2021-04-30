@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel ="readme" href="./README.md">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+    
+</head>
+
+<body class="body">
+    <img src="https://media.istockphoto.com/photos/bar-with-blurred-lights-bokeh-and-wooden-table-bar-with-blurred-and-picture-id1182304775?k=6&m=1182304775&s=612x612&w=0&h=j0NVaShfrT3YGYIOQczHQ67HQkxJa1019vhWLeUlE3c=" class="beer-background">
+        
+    <header class="header">
+        <nav class="navbar">
+            <ul> 
+                <li id="principal">Home</li>
+                <li id="sobreNosotros">About Us</li>
+                <li id="comoJugar">How To Play</li>
+                <span class="iconify" data-icon="feather-refresh-cw" data-inline="false" id="buttonRestart"></span>
+            </ul>
+        </nav>
+    </header>
+    
+    <main id="mainHome" style="display: block;"> 
+            <div class="main-principal">
+                <div class="avispa"> 
+                <img id="abeja" class="logo-avispa" src="./img/drunkbee.png" alt="logo">
+                <audio id="sonidoAbeja" src="./src/bee-effects.mp3"></audio>
+                </div>
+            
+            <h1 class="titulo"> Drink with Us! </h1>  
+            <div class="botones">
+                <div class="botonAñadir">
+                    <input type="text" id="addCoder" placeholder="">
+                    <button id="botonCoder">Write a name</button>
+                </div>
+                <div class="select-button"> 
+                    <button id="buttonRandom" type="button" class="select">Select random</button>
+                    <p id="printName" class='resultado'></p>
+                </div>
+                <div class="footerButton">
+                    <button id="buttonDrink" type="button" class="drink">Drink beer</button>
+                    <img id="cervezaLlena" class="imgCervezaLlena"  src="./img/cerveza-llena.svg" alt="cerveza_llena" style="display: block;">
+                    <img id="cervezaVacia" class="imgCervezaVacia" src="/img/cerveza-vacia1.png" alt="cerveza-vacía" style="display: none;">
+                    <audio id="soundImortal" src="/mortal-komba-jajajajt.mp3"></audio>
+                </div>
+            </div>
+        </div>
+        <div>
+            <ul id="listaNombres"></ul>
+        </div>
+    </main>
+    <main id="mainAboutUs" style="display: none;">
+        <div class="about-us">
+            <h2>Members of Los Tinchos</h2>
+            <div class="p-sobrenosotros">
+                <p>Solomon Nweke</p> 
+                <p>Andrea Suárez</p> 
+                <p>Gabriela Baquerizo</p>
+                <p>Martín Madridejos</p>
+                <p>Franco Calviño</p>
+            </div>
+            <img class="avispa-main" src="img/avispa-lostinchos.png">
+        </div>
+    </main>
+    <main id="mainPlay" style="display: none;">
+        <div class="how-to-play">
+            <h2>How to play</h2>
+            <ul class="how-to-play-description">
+                <li>The Drunk Bee is a multiplatform application (suitable for mobile phones, tablets and computers) designed by Los Tinchos that allows you to play a sacrifice selection system.</li><br>                  
+                <li>The game is set on the topic of bees, so honey and beehives are all around, and, of course, the color yellow.</li><br>
+                <li>1) We have a list of coders waiting a moment of glory. Moreover, any name can be added to the list through the button "Write a name".</li><br>
+                <li>2) By pressing "Select random", one of the coders is randomly selected. </li> <br>
+                <li>3) Afterwards, by clicking the button "drink beer" button, the selected coder is automatically out of the list, and consequently the beer gets emptied. And, of course, ¡the selected coder has to drink!</li><br>
+                <li>4) Once the list is empty, you can click reset and restart the game. Enjoy!</li><br>
+            </ul>
+        
+        </div>
+    </main>
+
+        
+    <script type="module" src="./js/index.js"></script>
+
+</body>
+</html>

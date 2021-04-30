@@ -1,0 +1,19 @@
+@import url(./header.css);
+@import url(./main.css);
+@import url(./responsive.css);
+
+body {
+  margin-right: 20px;
+  margin-left: 20px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.beer-background {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+  z-index: -1;
+  min-width: 100%;
+  min-height: 100%;
+
+}

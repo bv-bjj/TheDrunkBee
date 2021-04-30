@@ -1,0 +1,117 @@
+/* Responsive */
+
+@media screen and (min-width: 1024px) {
+
+    .body {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .botones {
+      display: flex;
+      align-items: flex-start;
+    }
+  
+    .header {
+      display: flex;
+      align-items: flex-start;
+    }
+  
+    .navbar {
+      border-radius: 10px;
+    }
+  
+    .navbar li {
+      width: 100px;
+    }
+  
+    .avispa {
+      display: flex;
+      align-items: flex-start;
+      justify-content: flex-start;
+    }
+  
+    .logo-avispa {
+      width: 400px;
+      cursor: pointer;
+    }
+    
+    .main-principal {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }
+  
+  .botonReset {
+      width: 20px;
+      margin-left:700px;
+    }
+  
+  #listaNombres {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ; 
+    gap: 7px;
+  }
+  
+  #listaNombres li {
+    margin: 10px 10px 10px 10px;
+  }
+  
+  #listaNombres li:hover {
+    color: #ffb037;
+    transition: 0.1s;
+  }
+
+  #mainAboutUs h2 {
+    margin-top: 130px;
+    font-size: 35px;  
+  }
+  
+  .p-sobrenosotros {
+    width: 457.42px;
+    margin-top: 30px;
+    font-size: 25px;
+  }
+  
+  .avispa-main {
+    margin-top: 30px;
+    width: 200px;
+    border-radius: 100%;
+  }
+  
+  .how-to-play h2 {
+    margin-top: 150px;
+  }
+  
+  .how-to-play-description {
+    font-size: 20px;
+    width: 500px;
+    line-height: 25px;
+  }
+  
+  .imgCervezaLlena {
+    width: 80px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+  }
+
+  .imgCervezaVacia {
+    width: 68px;
+    height: 70px;
+    margin-top: 20px;
+    margin-left: 58px;
+    margin-bottom: 27px;
+  }
+
+  .footerButton{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .titulo {
+    margin: 90px;
+    font-size: 60px;
+  }
+  }

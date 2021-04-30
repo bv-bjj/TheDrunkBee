@@ -37,14 +37,13 @@ The game is set on the topic of bees, so honey and beehives are all around, and,
 
 ### Demo
 
+https://martindejos.github.io/TheDrunkBee/
+
 ### Elements to highlight and Problems
 - When we had the first sprint we felt that we did not advance much but after talking about it, we agreed and the second half we worked much better and we advanced while we learned.
 - It took us a lot to come up with a final prototype and we made a lot of changes along the way.
 - We wanted to add the styles with SCSS and we tried it at the beginning but since we didn't have much time at the end we decided to finish the project in CSS.
 - We are happy with our final project. We have learned a lot by helping each other and coding together.
-
-### technical description
-
 
 <!-- links -->
 [webFigma]: figma.com

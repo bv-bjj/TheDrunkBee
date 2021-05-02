@@ -16,6 +16,7 @@ let main2 = document.getElementById("mainAboutUs")
 let main3 = document.getElementById("mainPlay") 
 let beer1 = document.getElementById("cervezaLlena")
 let beer2 = document.getElementById("cervezaVacia")
+let emptyList = document.getElementById("buttonEmpty")
 
 
 // Eventlistener
@@ -47,6 +48,11 @@ play.addEventListener('click', ()=>{
 homePage.addEventListener('click', ()=>{
     paginaHome()
 })
+
+emptyList.addEventListener('click', ()=>{
+    eraseList()
+})
+
 
 
 
@@ -149,3 +155,7 @@ function getInputValue() {
 }
 }
 
+function eraseList() {
+    listaCoders.length = 0;
+    desplegarNombres()
+} 

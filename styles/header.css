@@ -12,14 +12,14 @@
   background-color:#ffb037;
   width: 100%;   
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   height: 50px;
  }
 
 .navbar ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
   align-items: center;
   cursor: pointer;
   font-size: 15px;
@@ -124,7 +124,7 @@
   font-weight: bold;
   font-size: large;
   border-radius: 5px;
-  width: 160px;
+  width: 155px;
   height: auto;
   padding: 10px;
   border: 2px solid #ffb037;
